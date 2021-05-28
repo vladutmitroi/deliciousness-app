@@ -1,0 +1,14 @@
+.my-recipes .row .col {
+  padding: 0;
+}
+.my-recipes .row .col .card {
+  margin: 0 0.75rem 0 0;
+}
+.page-title p {
+  padding: 10px;
+  margin: 0 0.75rem 0 0;
+}
+.page-title p span {
+  font-size: 1.3rem;
+  padding: 0 1px;
+}

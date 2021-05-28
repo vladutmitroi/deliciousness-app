@@ -1,0 +1,23 @@
+.add-to-fav-container {
+  vertical-align: top;
+}
+.add-to-favorites-btn {
+  background: transparent !important;
+  margin-left: 5px;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.add-to-favorites-btn:hover {
+  transform: scale(1.2);
+  outline: none;
+}
+
+.add-to-favorites-btn i {
+  color: #ffbb9c;
+  font-size: 27px;
+  margin-top: 2px;
+}

@@ -1,0 +1,11 @@
+.notifications .notifications-text {
+  font-size: 1.4rem;
+}
+.notifications-text i {
+  padding-right: 5px;
+  color: #333;
+  font-size: 1.3rem;
+}
+.notifications-text strong {
+  color: #333;
+}

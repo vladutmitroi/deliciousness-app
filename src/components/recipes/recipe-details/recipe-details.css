@@ -1,0 +1,39 @@
+.card ul li label,
+.card ul li label span {
+  font-size: 1.6rem !important;
+}
+
+.recipe-details [type="checkbox"]:checked + span:not(.lever):before {
+  border-bottom: 2px solid #87d0d9;
+  border-right: 2px solid #87d0d9;
+}
+.card .card-content .card-title.recipe-details-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.recipe-details i {
+  padding-right: 5px;
+  color: #9e9e9e;
+  transition: all 0.3s;
+  font-size: 1.6rem;
+}
+.recipe-details .btn i {
+  color: #fff;
+}
+.recipe-content {
+  margin-top: 20px;
+}
+
+.recipe-instructions p {
+  padding: 5px 0;
+}
+.recipe-content p {
+  margin: 15px 0;
+}
+.edit-btn {
+  margin-left: 20px;
+}
+form textarea.edit-textarea {
+  min-height: 100px;
+}

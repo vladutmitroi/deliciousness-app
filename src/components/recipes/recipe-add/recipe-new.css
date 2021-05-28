@@ -1,0 +1,30 @@
+.recipe-new .recipe-title .input-field.inline {
+  width: calc(100% - 100px);
+}
+.recipe-new .btn {
+  padding: 0 40px;
+}
+.recipe-headline {
+  font-weight: 500;
+}
+.add-recipe {
+  text-transform: lowercase;
+}
+.add-recipe i {
+  padding-left: 7px;
+}
+.ingredient {
+  cursor: pointer;
+  width: auto;
+  transition: all 0.3s;
+}
+.ingredient:hover {
+  color: #ffbb9c;
+}
+.ingredient:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f2ed";
+  font-weight: 900;
+  padding-right: 5px;
+  display: inline-block;
+}

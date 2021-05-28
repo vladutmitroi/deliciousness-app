@@ -1,0 +1,15 @@
+.search-container {
+  margin-top: 0px;
+  padding-right: 0rem;
+}
+.container .col .input-field.search-container input {
+  background: transparent;
+}
+.container .col .input-field.search-container label {
+  font-size: 1.3rem;
+}
+.container .col .input-field.search-container label i {
+  padding-right: 10px;
+  transform: rotate(90deg) translateX(5px);
+  font-size: 1.6rem;
+}

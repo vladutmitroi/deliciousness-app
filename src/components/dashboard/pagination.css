@@ -1,0 +1,17 @@
+li.page-link {
+  margin-right: 10px;
+  height: 27px;
+}
+.page-link button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 7px;
+  height: 27px;
+}
+.pagination li.page-link.active {
+  background-color: #ef9a9a;
+}
+.page-link.active button {
+  color: #fff;
+}
